@@ -14,7 +14,23 @@ public class Main {
 		double badaJar = 50.7;
 		int chotaJar1 = (int) badaJar;
 		narrow(chotaJar1);
+
+/////////////////OPERATIONS//////////////////////////////////////////////////////////
 		
+		int sumOfAll = 0;
+		for(int i=0; i<10; i++) {
+			sumOfAll = sumOfAll + i;
+		}
+		System.out.println("From for block Sum of 0-9 is " + sumOfAll);
+		
+		sumOfAll = 0;	
+		int i = 10;
+		while(i<10) {
+			sumOfAll = sumOfAll + i;
+			i++;	
+		}
+		System.out.println("From while block Sum of 0-9 is " + sumOfAll);
+
 	}
 
 	public static void narrow(int chotaJar) {
