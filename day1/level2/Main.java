@@ -1,6 +1,13 @@
 public class Main {
 	
 	public static void main(String[] args) {
+		/*
+		1. What is your name?
+		2. Where are you from?
+		3. What is your pincode?
+		*/
+		Employee hrithik = new Employee("Hrithik", "Develop", 23);
+		test(1)
 		int one = 10;
 		int two = 30;
 		String three = "sdadssa";
@@ -40,5 +47,30 @@ public class Main {
 	public static void widen(double badaJar) {
 		System.out.println(badaJar);
 	}
+	
+	public static void testSwitchCase(int value){
+		switch(value){
+			case 1:
+				System.out.Println("What is your name?");
+				break;
+			case 2:
+				System.out.Println("Where are hyou from?");
+				break;
+			case 3:
+				System.out.Println("Pincode");
+				break;
+			default:
+				System.out.Println("Invalida value");
+		
+		}
+	}
+	
+	public class Employee {
+		public String name;
+		public String department;
+		public int employeeId;
+	}
+	
+	
 
 }
