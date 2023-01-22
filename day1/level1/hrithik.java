@@ -29,7 +29,17 @@ public static void main(String[] args){
 	hrithik.printLegs();
 	person.printLegs();	
 
-
+	String[] names = new String[3];
+	names[0] = "abc";
+	names[1] = "def";
+	names[2] = "xyz";
+	
+	int[] numbers = new int{1,2,3,4,5};
+	
+	for(i=0;i<names.Length;i++){
+		System.out.Println(names[i]);
+	}
+	
 }
 
 }
